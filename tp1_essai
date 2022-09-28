@@ -1,0 +1,12 @@
+# Emilie Mancera
+# 404
+
+# On demande à l'utilisateur son texte
+chaine1 = input("Quel est votre texte?")
+
+# On invente un nouvelle fonction pour compter le nombre de mots
+def count_word():
+    print("Nombre de mots: " + str(len(chaine1.split(" "))))
+
+# On fait usage de la fonction
+count_word()
